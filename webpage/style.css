@@ -1,0 +1,128 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    
+}
+.outset{
+    position: relative;
+    
+}
+.inset{
+    position: absolute;
+    top: 20px;
+    left: 90px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 100px;
+    font-weight: 1000;
+    padding: 0;
+    border-collapse: collapse;
+}
+#Shead{
+    color:gray;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+
+/*Title setting h2 h3*/
+h2{
+    text-align: center;
+}
+
+h3{
+    font-size: 24px;
+
+}
+h1+p{
+    font-size: 26px;
+    font-weight: 800;
+}
+.description,.geography,.liziba,.place,.Song,.Bridge,
+.Liberation,.Hong,.Huguang,.Cableway,.sanxia{
+    width: 600;
+    padding-right: 150px;
+}
+#a,#b{
+    font-size: 20px;
+    text-indent: 2cm;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+#a>span{
+    font-size: 28px;
+    font-weight: 400;
+    
+}
+
+#a>span:nth-child(2){
+    font-size: 14px;
+    color: gray;
+}
+
+/*Adjust Postion:Above lobby's map*/
+#tip1{
+    font-size: 24px;
+    font-weight: 600;
+}
+#tip1 span{
+    color: red;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.main{
+    display: inline-block;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*About us's table*/
+
+.group td{
+    border:solid 1px gray;
+    padding: 15px;
+    text-align: center;
+    font-weight: 800;
+}
+#pic{
+    padding: 0;
+}
+
+.group{
+    margin-right: auto;
+ 
+    margin-left: auto;
+    margin-top: 25px;
+    border-collapse: collapse;
+}
+
+/*Those codes control navigation module*/
+.quick{
+    position:sticky;
+    top: 400px;
+    right: 5px;
+    float: right;
+    border-style: groove;
+    border-color: gainsboro;
+    background-color: black;
+}
+.quick tr,td a{
+    text-decoration: none;
+    color:#ec8295;
+    font-weight: 600;
+}
+td a:hover{
+    background-color:white ;
+}
+
+body div:hover{
+    font-weight: 400;
+   
+}
+/*About us's settings*/
+.Group{
+    text-transform: uppercase;
+    text-align: center;
+    padding-left: 100px;
+}
